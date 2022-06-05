@@ -33,32 +33,11 @@
             android:src="@drawable/image_billings"
             tools:ignore="ContentDescription" />
 
-        <TextView
-            style="@style/TextStyle.Bold"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="40dp"
-            android:drawablePadding="5dp"
-            android:gravity="center_vertical"
-            android:text="@string/check_your_credit_history"
-            android:textColor="@color/color_font"
-            android:textSize="18sp"
-            app:drawableStartCompat="@drawable/ic_check" />
 
         <TextView
             style="@style/TextStyle.Bold"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="20dp"
-            android:drawablePadding="5dp"
-            android:gravity="center_vertical"
-            android:text="@string/check_your_income_history"
-            android:textColor="@color/color_font"
-            android:textSize="18sp"
-            app:drawableStartCompat="@drawable/ic_check" />
-
-        <TextView
-            style="@style/TextStyle.Bold"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="60dp"
             android:drawablePadding="5dp"
             android:gravity="center_vertical"
             android:text="@string/check_suitable_and_unsuitable_redits"
@@ -71,22 +50,6 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="30dp"
-            android:gravity="center">
-
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <TextView
-                style="@style/TextStyle"
-                android:text="@string/i_hereby_give_my_consent_to_the_processing_of_personal_data"
-                android:textColor="@color/color_font" />
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"

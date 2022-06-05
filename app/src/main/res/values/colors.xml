@@ -7,4 +7,8 @@
     <color name="color_black">#000000</color>
     <color name="color_font">#1F2937</color>
     <color name="color_gray">#9E9E9E</color>
+
+    <color name="color_green">#77D75E</color>
+    <color name="color_red">#C54848</color>
+
 </resources>

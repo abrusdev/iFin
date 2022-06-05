@@ -4,9 +4,9 @@
     <string name="from_uppercase">FROM</string>
     <string name="team_name">Bella Ciao</string>
     <string name="get_started">Get Started</string>
-    <string name="with_one_click_check_your_credit_worthiness">With one click check your credit worthiness</string>
+    <string name="with_one_click_check_your_credit_worthiness">Find available banks which can give you credit or why they can\'t give you credit.</string>
     <string name="credit_worthiness">Credit worthiness</string>
-    <string name="identification_via_oneid">Identification via OneID</string>
+    <string name="identification">Identification</string>
     <string name="authorize">Authorize</string>
     <string name="so_m">so\'m</string>
 
