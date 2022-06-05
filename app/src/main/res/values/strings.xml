@@ -13,11 +13,11 @@
     <string name="instruction"><u>How to fill these fields?</u></string>
 
     <string name="credit_type">Credit type</string>
-    <string name="the_type_which_is_set_by_the_bank">The type which is set by the Bank</string>
+    <string name="the_type_which_is_set_by_the_bank">What type of credit do you want to get</string>
     <string name="credit_value">Credit value</string>
-    <string name="the_equivalent_monetary_value_excluding_the_deposit_which_can_be_used_towards_the_services">The equivalent monetary value (excluding the Deposit), which can be used towards the Services.</string>
+    <string name="the_equivalent_monetary_value_excluding_the_deposit_which_can_be_used_towards_the_services">How much credit do you want</string>
     <string name="credit_period">Credit period</string>
-    <string name="the_number_of_days_that_allowed_to_wait_before_paying_an_invoice">The number of days that allowed to wait before paying an invoice</string>
+    <string name="the_number_of_days_that_allowed_to_wait_before_paying_an_invoice">In how many days do you want to pay off the credit</string>
 
     <string name="check_your_credit_history">Check your Credit history</string>
     <string name="check_your_income_history">Check your Income history</string>
