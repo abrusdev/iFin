@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:ignore="ContentDescription"
-    android:paddingVertical="20dp">
+    android:paddingVertical="20dp"
+    tools:ignore="ContentDescription">
 
     <TextView
         style="@style/TextStyle.Bold"
@@ -25,37 +25,41 @@
 
 
     <androidx.core.widget.NestedScrollView
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <ImageView
-                android:layout_marginStart="12dp"
+                android:id="@+id/iv_auto_credit"
                 android:layout_width="88dp"
                 android:layout_height="33dp"
+                android:layout_marginStart="12dp"
                 android:src="@drawable/ic_auto_credit_disabled" />
 
             <ImageView
-                android:layout_marginStart="10dp"
+                android:id="@+id/iv_microloan"
                 android:layout_width="80dp"
                 android:layout_height="33dp"
+                android:layout_marginStart="10dp"
                 android:src="@drawable/ic_microloan_enabled" />
 
             <ImageView
-                android:layout_marginStart="10dp"
+                android:id="@+id/iv_mortgage"
                 android:layout_width="78dp"
                 android:layout_height="33dp"
+                android:layout_marginStart="10dp"
                 android:src="@drawable/ic_mortage_enabled" />
 
             <ImageView
-                android:layout_marginEnd="12dp"
-                android:layout_marginStart="10dp"
+                android:id="@+id/iv_consumer_credit"
                 android:layout_width="115dp"
                 android:layout_height="33dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="12dp"
                 android:src="@drawable/ic_consumer_credit_enabled" />
 
         </LinearLayout>
@@ -90,7 +94,7 @@
             android:layout_height="55dp"
             android:layout_weight="1"
             android:background="@drawable/bg_edt"
-            android:hint="1,000,000"
+            android:hint="1 000 000"
             android:importantForAutofill="no"
             android:inputType="number"
             android:paddingHorizontal="12dp"
@@ -126,6 +130,7 @@
         android:textSize="14sp" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_periods"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -138,12 +143,12 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="55dp"
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_gravity="end"
-        android:layout_margin="12dp"
-        android:src="@drawable/ic_next"
-        tools:ignore="ContentDescription" />
-
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginVertical="20dp"
+        android:text="Continue"
+        tools:ignore="HardcodedText" />
 </LinearLayout>

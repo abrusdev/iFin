@@ -4,238 +4,252 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="12dp"
     tools:ignore="HardcodedText">
 
     <TextView
         style="@style/TextStyle.Bold"
+
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
         android:text="@string/identification"
         android:textColor="@color/color_black"
         android:textSize="24sp" />
 
-    <TextView
-        style="@style/TextStyle"
-        android:layout_marginTop="20dp"
-        android:text="Your age"
-        android:textColor="@color/color_gray"
-        android:textSize="16sp" />
 
-    <EditText
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="8dp"
-        android:paddingHorizontal="12dp"
-        android:hint="E.x.: 24"
-        android:background="@drawable/bg_edt"
-        android:importantForAutofill="no"
-        android:inputType="number" />
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
-    <TextView
-        style="@style/TextStyle"
-        android:layout_marginTop="20dp"
-        android:text="Work experience at the last place of work"
-        android:textColor="@color/color_gray"
-        android:textSize="16sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="12dp"
+            android:orientation="vertical">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="8dp"
-        android:paddingHorizontal="12dp"
-        android:hint="E.x.: 5"
-        android:background="@drawable/bg_edt"
-        android:importantForAutofill="no"
-        android:inputType="number" />
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginTop="15dp"
+                android:text="Your age"
+                android:textColor="@color/color_gray"
+                android:textSize="16sp" />
 
-    <TextView
-        style="@style/TextStyle"
-        android:layout_marginTop="20dp"
-        android:text="Average earnings for the last 12 months"
-        android:textColor="@color/color_gray"
-        android:textSize="16sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_edt"
+                android:hint="E.x.: 24"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:paddingHorizontal="12dp" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="8dp"
-        android:paddingHorizontal="12dp"
-        android:hint="E.x.: 20 000 0000"
-        android:background="@drawable/bg_edt"
-        android:importantForAutofill="no"
-        android:inputType="number" />
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginTop="15dp"
+                android:text="Work experience at the last place of work"
+                android:textColor="@color/color_gray"
+                android:textSize="16sp" />
 
-    <TextView
-        style="@style/TextStyle"
-        android:layout_marginTop="20dp"
-        android:text="Credit Scoring"
-        android:textColor="@color/color_gray"
-        android:textSize="16sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_edt"
+                android:hint="E.x.: 5"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:paddingHorizontal="12dp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp">
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginTop="15dp"
+                android:text="Average earnings for the last 12 months"
+                android:textColor="@color/color_gray"
+                android:textSize="16sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Score" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_edt"
+                android:hint="E.x.: 20 000 0000"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:paddingHorizontal="12dp" />
 
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="10dp"
-            android:layout_weight="2"
-            android:hint="E.x: 351"
-            android:background="@drawable/bg_edt"
-            android:inputType="number"
-            android:paddingHorizontal="12dp" />
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginTop="15dp"
+                android:text="Credit Scoring"
+                android:textColor="@color/color_gray"
+                android:textSize="16sp" />
 
-        <TextView
-            android:layout_marginStart="12dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Rate" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
 
-        <EditText
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="20dp"
-            android:layout_weight="1"
-            android:hint="E.x: C1"
-            android:background="@drawable/bg_edt"
-            android:gravity="center"
-            android:inputType="text" />
-    </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Score" />
 
-    <TextView
-        style="@style/TextStyle"
-        android:layout_marginTop="20dp"
-        android:text="Availability of a estate"
-        android:textColor="@color/color_gray"
-        android:textSize="16sp" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg_edt"
+                    android:hint="E.x: 351"
+                    android:inputType="number"
+                    android:paddingHorizontal="12dp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="Rate" />
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:background="@drawable/bg_edt"
-            android:gravity="center"
-            android:text="Yes" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edt"
+                    android:gravity="center"
+                    android:hint="E.x: C1"
+                    android:inputType="text" />
+            </LinearLayout>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="20dp"
-            android:layout_weight="1"
-            android:background="@drawable/bg_edt"
-            android:gravity="center"
-            android:text="No" />
-    </LinearLayout>
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginTop="15dp"
+                android:text="Availability of a estate"
+                android:textColor="@color/color_gray"
+                android:textSize="16sp" />
 
-    <TextView
-        style="@style/TextStyle"
-        android:layout_marginTop="20dp"
-        android:text="Availability of a vehicle"
-        android:textColor="@color/color_gray"
-        android:textSize="16sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edt"
+                    android:gravity="center"
+                    android:text="Yes" />
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:background="@drawable/bg_edt"
-            android:gravity="center"
-            android:text="Yes" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edt"
+                    android:gravity="center"
+                    android:text="No" />
+            </LinearLayout>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="20dp"
-            android:layout_weight="1"
-            android:background="@drawable/bg_edt"
-            android:gravity="center"
-            android:text="No" />
-    </LinearLayout>
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginTop="20dp"
+                android:text="Availability of a vehicle"
+                android:textColor="@color/color_gray"
+                android:textSize="16sp" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
 
-    <TextView
-        style="@style/TextStyle"
-        android:layout_marginTop="20dp"
-        android:text="Availability of a guarantor"
-        android:textColor="@color/color_gray"
-        android:textSize="16sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edt"
+                    android:gravity="center"
+                    android:text="Yes" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edt"
+                    android:gravity="center"
+                    android:text="No" />
+            </LinearLayout>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:background="@drawable/bg_edt"
-            android:gravity="center"
-            android:text="Yes" />
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginTop="15dp"
+                android:text="Availability of a guarantor"
+                android:textColor="@color/color_gray"
+                android:textSize="16sp" />
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="20dp"
-            android:layout_weight="1"
-            android:background="@drawable/bg_edt"
-            android:gravity="center"
-            android:text="No" />
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
 
-    <TextView
-        style="@style/TextStyle"
-        android:layout_marginTop="20dp"
-        android:text="Presence of current debt on loans"
-        android:textColor="@color/color_gray"
-        android:textSize="16sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edt"
+                    android:gravity="center"
+                    android:text="Yes" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edt"
+                    android:gravity="center"
+                    android:text="No" />
+            </LinearLayout>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:background="@drawable/bg_edt"
-            android:gravity="center"
-            android:text="Yes" />
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginTop="15dp"
+                android:text="Presence of current debt on loans"
+                android:textColor="@color/color_gray"
+                android:textSize="16sp" />
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="20dp"
-            android:layout_weight="1"
-            android:background="@drawable/bg_edt"
-            android:gravity="center"
-            android:text="No" />
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edt"
+                    android:gravity="center"
+                    android:text="Yes" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edt"
+                    android:gravity="center"
+                    android:text="No" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 
     <Button
+        android:id="@+id/btn_continue"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginHorizontal="60dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginVertical="20dp"
         android:text="Continue" />
 
 </LinearLayout>

@@ -3,12 +3,16 @@
     android:layout_width="65dp"
     android:layout_height="100dp"
     android:layout_marginHorizontal="8dp"
-    android:gravity="center"
-    android:background="@drawable/bg_unselected_year">
+    android:gravity="center">
 
     <TextView
         android:id="@+id/tv_year"
-        style="@style/TextStyle"
-        android:text="1 yil"/>
+        style="@style/TextStyle.Bold"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_unselected_year"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:textColor="@color/color_font"
+        android:gravity="center" />
 
 </RelativeLayout>

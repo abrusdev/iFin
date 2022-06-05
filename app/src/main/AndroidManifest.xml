@@ -25,6 +25,9 @@
 
         <activity android:name=".MainActivity" />
         <activity android:name=".RegisterActivity" />
+        <activity android:name=".steps.Step1Activity" />
+        <activity android:name=".steps.Step2Activity" />
+        <activity android:name=".steps.Step3Activity" />
     </application>
 
 </manifest>

@@ -12,9 +12,10 @@
     tools:ignore="HardcodedText">
 
     <ImageView
-        android:id="@+id/iv_bank_1"
+        android:id="@+id/iv_bank"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/image_asia_aliance_bank"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +29,7 @@
         android:textColor="@color/color_font"
         android:textSize="17sp"
         app:layout_constraintBottom_toTopOf="@id/tv_amount"
-        app:layout_constraintStart_toEndOf="@id/iv_bank_1"
+        app:layout_constraintStart_toEndOf="@id/iv_bank"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -40,15 +41,30 @@
         android:textColor="@color/color_gray"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/iv_bank_1"
+        app:layout_constraintStart_toEndOf="@id/iv_bank"
         app:layout_constraintTop_toBottomOf="@id/tv_name" />
 
     <TextView
+        android:id="@+id/tv_suitable"
         style="@style/TextStyle"
         android:background="@drawable/bg_green_r2"
         android:paddingHorizontal="8dp"
         android:paddingVertical="2dp"
+        android:visibility="gone"
         android:text="Suitable"
+        android:textColor="@color/color_white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_unsuitable"
+        style="@style/TextStyle"
+        android:background="@drawable/bg_red_r2"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="2dp"
+        android:visibility="gone"
+        android:text="Unsuitable"
         android:textColor="@color/color_white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
