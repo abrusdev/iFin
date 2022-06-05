@@ -17,4 +17,14 @@
     <string name="credit_period">Credit period</string>
     <string name="the_number_of_days_that_allowed_to_wait_before_paying_an_invoice">The number of days that allowed to wait before paying an invoice</string>
 
+    <string name="check_your_credit_history">Check your Credit history</string>
+    <string name="check_your_income_history">Check your Income history</string>
+    <string name="check_suitable_and_unsuitable_redits">Check suitable and unsuitable сredits</string>
+
+    <string name="pay_with_payme">Pay with Payme</string>
+    <string name="price">Price</string>
+    <string name="_40000_so_m">40000 so\'m</string>
+    <string name="i_hereby_give_my_consent_to_the_processing_of_personal_data">I hereby give my consent to the processing of personal data</string>
+    <string name="i_agree_with_the_public_offer">I agree with the public offer</string>
+
 </resources>

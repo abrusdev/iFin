@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextStyle.Bold"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="@font/ft_agency_fb"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/color_white"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_white_r10"
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/image_billings"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            style="@style/TextStyle.Bold"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/check_your_credit_history"
+            android:textColor="@color/color_font"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/ic_check" />
+
+        <TextView
+            style="@style/TextStyle.Bold"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/check_your_income_history"
+            android:textColor="@color/color_font"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/ic_check" />
+
+        <TextView
+            style="@style/TextStyle.Bold"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/check_suitable_and_unsuitable_redits"
+            android:textColor="@color/color_font"
+            android:textSize="18sp"
+            app:drawableStartCompat="@drawable/ic_check" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/TextStyle"
+                android:text="@string/i_hereby_give_my_consent_to_the_processing_of_personal_data"
+                android:textColor="@color/color_font" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/TextStyle"
+                android:layout_width="match_parent"
+                android:text="@string/i_agree_with_the_public_offer"
+                android:textColor="@color/color_font" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="40dp">
+
+            <TextView
+                style="@style/TextStyle.Bold"
+                android:text="@string/price"
+                android:textColor="@color/color_font"
+                android:textSize="18sp" />
+
+            <TextView
+                style="@style/TextStyle.Bold"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/_40000_so_m"
+                android:textColor="@color/color_primary_dark"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextStyle.Bold"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_blue_r10"
+            android:gravity="center"
+            android:text="@string/pay_with_payme"
+            android:textColor="@color/color_white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -37,7 +37,7 @@
                 android:layout_marginStart="12dp"
                 android:layout_width="88dp"
                 android:layout_height="33dp"
-                android:src="@drawable/ic_auto_credit_enabled" />
+                android:src="@drawable/ic_auto_credit_disabled" />
 
             <ImageView
                 android:layout_marginStart="10dp"
