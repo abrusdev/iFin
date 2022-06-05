@@ -3,4 +3,18 @@
     <string name="copyright_message">© 2022 iFin. All Rights Reserved.</string>
     <string name="from_uppercase">FROM</string>
     <string name="team_name">Bella Ciao</string>
+    <string name="get_started">Get Started</string>
+    <string name="with_one_click_check_your_credit_worthiness">With one click check your credit worthiness</string>
+    <string name="credit_worthiness">Credit worthiness</string>
+    <string name="identification_via_oneid">Identification via OneID</string>
+    <string name="authorize">Authorize</string>
+    <string name="so_m">so\'m</string>
+
+    <string name="credit_type">Credit type</string>
+    <string name="the_type_which_is_set_by_the_bank">The type which is set by the Bank</string>
+    <string name="credit_value">Credit value</string>
+    <string name="the_equivalent_monetary_value_excluding_the_deposit_which_can_be_used_towards_the_services">The equivalent monetary value (excluding the Deposit), which can be used towards the Services.</string>
+    <string name="credit_period">Credit period</string>
+    <string name="the_number_of_days_that_allowed_to_wait_before_paying_an_invoice">The number of days that allowed to wait before paying an invoice</string>
+
 </resources>

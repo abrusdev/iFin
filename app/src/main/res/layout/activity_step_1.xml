@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription"
+    android:paddingVertical="20dp">
+
+    <TextView
+        style="@style/TextStyle.Bold"
+        android:layout_marginHorizontal="12dp"
+        android:text="@string/credit_type"
+        android:textColor="@color/color_font"
+        android:textSize="16sp" />
+
+    <TextView
+        style="@style/TextStyle"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/the_type_which_is_set_by_the_bank"
+        android:textColor="@color/color_gray"
+        android:textSize="14sp" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginStart="12dp"
+                android:layout_width="88dp"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_auto_credit_enabled" />
+
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_width="80dp"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_microloan_enabled" />
+
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_width="78dp"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_mortage_enabled" />
+
+            <ImageView
+                android:layout_marginEnd="12dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="115dp"
+                android:layout_height="33dp"
+                android:src="@drawable/ic_consumer_credit_enabled" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        style="@style/TextStyle.Bold"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/credit_value"
+        android:textColor="@color/color_font"
+        android:textSize="16sp" />
+
+    <TextView
+        style="@style/TextStyle"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/the_equivalent_monetary_value_excluding_the_deposit_which_can_be_used_towards_the_services"
+        android:textColor="@color/color_gray"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="20dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_edt"
+            android:hint="1,000,000"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:paddingHorizontal="12dp"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="12dp"
+            android:gravity="bottom"
+            android:paddingBottom="8dp"
+            android:text="@string/so_m"
+            android:textColor="@color/color_font"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/TextStyle.Bold"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/credit_period"
+        android:textColor="@color/color_font"
+        android:textSize="16sp" />
+
+    <TextView
+        style="@style/TextStyle"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/the_number_of_days_that_allowed_to_wait_before_paying_an_invoice"
+        android:textColor="@color/color_gray"
+        android:textSize="14sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_credit_period" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="end"
+        android:layout_margin="12dp"
+        android:src="@drawable/ic_next"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>
