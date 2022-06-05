@@ -5,6 +5,8 @@
       <map>
         <entry key="app/src/main/res/drawable/bg_blue_r10.xml" value="0.1395" />
         <entry key="app/src/main/res/drawable/bg_edt.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/bg_edt_active.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/bg_edt_disactive.xml" value="0.1395" />
         <entry key="app/src/main/res/drawable/bg_gray_r10.xml" value="0.1395" />
         <entry key="app/src/main/res/drawable/bg_green_r2.xml" value="0.1395" />
         <entry key="app/src/main/res/drawable/bg_red_r2.xml" value="0.1395" />
@@ -14,7 +16,7 @@
         <entry key="app/src/main/res/layout/activity_launch.xml" value="0.28314373184341096" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.38333333333333336" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.314664386489953" />
-        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.26094727692780667" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2949737548828125" />
         <entry key="app/src/main/res/layout/activity_step_1.xml" value="0.32544109512466096" />
         <entry key="app/src/main/res/layout/activity_step_2.xml" value="0.3138093202223172" />
         <entry key="app/src/main/res/layout/activity_step_3.xml" value="0.306607745864953" />

@@ -10,6 +10,8 @@
     <string name="authorize">Authorize</string>
     <string name="so_m">so\'m</string>
 
+    <string name="instruction"><u>How to fill these fields?</u></string>
+
     <string name="credit_type">Credit type</string>
     <string name="the_type_which_is_set_by_the_bank">The type which is set by the Bank</string>
     <string name="credit_value">Credit value</string>
